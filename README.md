@@ -1,2 +1,0 @@
-# simplerecipies
-assignment dropout acaemy

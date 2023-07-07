@@ -16,9 +16,73 @@
     
 }
 
+.mainc{
+    width:100%;
+    height:50%;
+    /* border:2px solid red; */
+}
+
+.topdiv{
+    height:50%;
+    width:100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tc{
+    height:60%;
+    width:32%;
+    background-color: #64748b;
+}
+
+.head{
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    
+}
+
+.text{
+
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+
+}
+
+.bottomdiv{
+    height:50%;
+    width:66%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tcb{
+    height:60%;
+    width:48.5%;
+    background-color:#64748b;
+}
+
 .wrapper{
     width:80%;
-    min-height:90%;
+    height:100%;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -116,69 +180,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.top{
-    height:600px;
-    width: 100%;
-    /* border: 2px solid blue; */
-   
-}
 
-.topbut{
-    height:250px;
-    width:100%;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    
-}
-
-.tb{
-    height:50%;
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tu{
-
-    height:50%;
-    width:65%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 2px solid red; */
-    
-   
-
-}
-
-.topbut button{
-    background-color:#64748b;
-    min-width:350px;
-    height:70px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-right: 20px; */
-    border-radius: 3px;
-    border-style: none;
-}
-
-
-
-.topbut button:hover{
-    background-color: rgb(100,92,255);
-}
 
 #menu li a:hover{
     color: rgb(51, 102, 255);
 }
 
+.content{
+    width:100%;
+    height:100%;
+    /* border: 2px solid blue; */
+}
+
+
 .footer{
-    height:5%;
+    height:10%;
     width:100%;
     background-color: black;
     color: white;
@@ -187,3 +203,18 @@
     align-items: center;
 }
 
+.tc:hover{
+    background-color: rgb(100, 102, 255);
+}
+
+.tcb:hover{
+    background-color:rgb(100, 102, 255) ;
+}
+
+.tc a{
+    text-decoration: none;
+}
+
+.tcb a{
+    text-decoration: none;
+}

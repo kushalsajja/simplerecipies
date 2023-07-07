@@ -6,10 +6,10 @@
 
 .container{
     max-width: 100vw;
-    min-height: 120vh;
+    min-height: 140vh;
     /* border: 2px solid black; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
     flex-direction: column;
     
@@ -245,13 +245,14 @@
 }
 
 .footer{
-    height:40px;
+    height:60px;
     width:100%;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 #menu li a:hover{
@@ -271,4 +272,9 @@
 
 .left p{
     font-family: 'Roboto', sans-serif;
+}
+
+.left button a{
+    text-decoration: none;
+    color: white;
 }
